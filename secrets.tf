@@ -1,7 +1,7 @@
 provider "vault" {}
 
 data "vault_generic_secret" "es" {
-  path = "secret/devops/elastic/deployment/self-service-${local.environment}"
+  path = "secret/devops/elastic/deployment/selfservice-${local.environment}"
 }
 
 locals {
