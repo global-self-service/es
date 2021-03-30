@@ -1,5 +1,5 @@
 module "es" {
-  source = "github.com/global-devops-terraform/es?ref=v1.9.0"
+  source = "github.com/global-devops-terraform/es?ref=v1.10.0"
 
   secret_prefix     = "secret/selfservice/envs/${local.environment}/elasticsearch"
   elasticsearch_url = local.elasticsearch_url
