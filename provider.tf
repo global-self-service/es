@@ -17,7 +17,7 @@ terraform {
   required_providers {
     elasticsearch = {
       source  = "phillbaker/elasticsearch"
-      version = "1.5.8"
+      version = "1.6.0"
     }
   }
 }
